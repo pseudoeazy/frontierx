@@ -26,11 +26,11 @@ const Header: React.FC<{ title: string }> = ({ title }) => (
       <meta charSet="utf-8" />
       <title> {title} </title>
     </Head>
-    <div className="flex justify-center bg-header-900">
-      <nav className="w-full  h-fit sm:h-24 flex flex-col sm:flex-row space-y-1 md:space-y-0 justify-between items-center px-10 py-10 md:py-0">
+    <div className="w-full flex justify-center bg-header-900 ">
+      <nav className="w-full  h-fit xl:h-24 flex flex-col xl:flex-row space-y-1 xl:space-y-0 justify-between items-center px-10 py-10 xl:py-0">
         <Logo />
         <SearchBar />
-        <ul className="flex space-x-9">
+        <ul className="flex space-x-9 ">
           {menus.map(({ path, name }, idx) => (
             <li key={idx}>
               <Link href={path}>

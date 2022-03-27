@@ -10,7 +10,7 @@ const styles = {
 };
 
 const Logo = () => (
-  <div className="w-40 h-6 ">
+  <div className="xl:w-48 h-6">
     <Link href="/">
       <a className={styles.link}>
         <Image
