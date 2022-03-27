@@ -1,4 +1,4 @@
-## [https://frontierx-zeta.vercel.app/](frontierx)
+## [frontierx](https://frontierx-zeta.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -12,4 +12,4 @@ npm run dev
 yarn dev
 ```
 
-Open [https://frontierx-zeta.vercel.app/](frontierx) with your browser to see the result.
+Open [frontierx](https://frontierx-zeta.vercel.app/) with your browser to see the result.
