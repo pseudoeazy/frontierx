@@ -36,7 +36,7 @@ const rightLinks: CTA[] = [
 
 const Socials: React.FC = () => {
   return (
-    <div className="w-1/2">
+    <div className="w-full sm:w-1/2">
       <Faq index={0}>
         <p className="w-4/5 text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -3,7 +3,7 @@ import Header from "./header/Header";
 import Footer from "./Footer";
 
 const Layout: React.FC<{ title: string }> = ({ children, title }) => (
-  <div className="main-page-layout font-primary">
+  <div className="main-page-layout max-w-screen-2xl mx-auto font-primary">
     <Header title={title} />
     <main className="bg-gradient-to-b from-gray-800 to-secondary-400 ">
       {children}

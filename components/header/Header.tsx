@@ -27,7 +27,7 @@ const Header: React.FC<{ title: string }> = ({ title }) => (
       <title> {title} </title>
     </Head>
     <div className="flex justify-center bg-header-900">
-      <nav className="w-full h-24 flex justify-between items-center px-10">
+      <nav className="w-full  h-fit sm:h-24 flex flex-col sm:flex-row space-y-1 md:space-y-0 justify-between items-center px-10 py-10 md:py-0">
         <Logo />
         <SearchBar />
         <ul className="flex space-x-9">

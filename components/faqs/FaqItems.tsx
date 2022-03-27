@@ -138,7 +138,7 @@ const items: Item[][] = [
 ];
 
 const FaqItems: React.FC = () => (
-  <div className=" flex flex-col space-y-5 w-1/2">
+  <div className=" flex flex-col space-y-5 w-full sm:w-1/2">
     {items.map((item, idx) => (
       <FaqItem key={idx} items={item} index={idx} />
     ))}

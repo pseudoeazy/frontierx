@@ -45,7 +45,7 @@ const FeaturesCTA: React.FC = () => (
       </p>
     </section>
     <section className="w-full flex justify-center items-center mt-14">
-      <div className="flex justify-center items-center space-x-5">
+      <div className="flex flex-col sm:flex-row justify-center items-center space-y-5 sm:space-y-0 sm:space-x-5">
         {ctas.map(({ label, icon: Icon }, idx) => (
           <button
             type="button"

@@ -13,7 +13,7 @@ const styles = {
 };
 
 const SearchBar: React.FC = () => (
-  <div className="w-1/2 ">
+  <div className="w-full md:w-1/2 ">
     <form className="flex items-center w-full pl-4 rounded-lg bg-gray-700">
       <button type="button">
         <Search />
